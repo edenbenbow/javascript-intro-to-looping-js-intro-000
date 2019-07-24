@@ -12,16 +12,13 @@ function whileLoop(n) {
   while (n > 0) {console.log(--n)}
   return "done"}
 
-  function incrementVariable() {
-    i = i + 1;
-  }
-
   function doWhileLoop(num) {
-  var i = 0;
-do {
-  array.pop();
-  incrementVariable();
-}
-while (array.length > 0 && incrementVariable());
-console.log ("I run once regardless.");
-}
+
+    function incrementVariable() {
+      num = num + 1;
+    }
+    
+    do {
+      console.log("I run once regardless.");
+    } while (incrementVariable(num) < num);
+  }
