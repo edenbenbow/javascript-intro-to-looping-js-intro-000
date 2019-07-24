@@ -23,5 +23,5 @@ do {
   incrementVariable();
 }
 while (array.length > 0 && incrementVariable());
-return "I run once regardless.";
+console.log ("I run once regardless.");
 }
