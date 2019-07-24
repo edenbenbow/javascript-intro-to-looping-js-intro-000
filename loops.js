@@ -7,3 +7,11 @@ function forLoop(array) {
     }
   }return array;
 }
+
+function whileLoop() {
+  let countdown = 100;
+
+  while (countodwn > 0) {
+    console.log(--countdown);
+  }
+}
