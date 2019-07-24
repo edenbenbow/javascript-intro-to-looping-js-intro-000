@@ -12,11 +12,12 @@ function whileLoop(n) {
   while (n > 0) {console.log(--n)}
   return "done"}
 
-function doWhileLoop(num) {
+  function incrementVariable() {
+    i = i + 1;
+  }
+
+  function doWhileLoop(num) {
   var i = 0;
-function incrementVariable() {
-  i = i + 1;
-}
 do {
   array.pop();
   incrementVariable();
